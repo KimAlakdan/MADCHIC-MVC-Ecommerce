@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muzia</title>
+     <!-- Favicons -->
+  <link href="/assets/image/muziket.png" rel="icon">
+  
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+
+
+   
+    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+    <link href="all.min.css" rel="stylesheet">
+    
+    <!-- maincss -->
+    <link rel="stylesheet" href="home.css">
+
+
+    
+    
+
+</head>
+<body>
+    
+ <!-- header -->
+ <header>
+ <nav class="navbar navbar-expand-sm ">
+  <div class="container-fluid">
+    <h6 class="navbar-brand m-3">MASHA</h6>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end align-items-center" id="navbarNavAltMarkup" >
+      <div class="navbar-nav">
+        <a class="nav-link" aria-current="page" href="#accueil">Accueil</a>
+        <a class="nav-link" href="#projets">Mes projets</a>
+        <a class="nav-link" href="#competence">Compétences</a>
+        <a class="nav-link" href="#contact">Contact</a>
+      </div>
+    </div>
+  </div>
+</nav>
+  </header>
+
+  <!-- header -->
+
+<main class="main">
+  <section id="accueil" class="hero d-flex align-items-center">
+    <div class="container">
+      <div class="row gy-4">
+        <div class="col-lg-7 order-2 order-lg-1 d-flex flex-column justify-content-center">
+          
+          <h1 data-aos="fade-up" class="glitch-text">
+            ARCHITECTE <br> <span>DIGITAL</span>
+          </h1>
+          
+          <div data-aos="fade-up" data-aos-delay="100" class="hero-subtitle">
+            <span class="name-tag">Lovan'ny Fitia</span>
+            <p>Développeur Full-Stack | Spécialiste Architecture MVC</p>
+          </div>
+
+          <div class="d-flex gap-3 mt-4" data-aos="fade-up" data-aos-delay="200">
+            <a href="#projets" class="btn btn-main">Voir mes projets</a>
+            <a href="#contact" class="btn btn-outline-main">Me contacter</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+<!-- HEROOOO -->
+
+<!-- Mes projet -->
+
+
+
+<section id="projets" class="py-5">
+    <div class="container">
+        <h2 class="text-center text-white mb-5 fw-bold">Mes <span class="text-violet">Projets</span></h2>
+        
+        <div class="row g-4">
+
+            <div class="col-md-4">
+                <div class="card-projet">
+                    <img src="madCHic.jpg" class="img-fluid rounded-top" alt="Projet">
+                    <div class="p-4">
+                        <h4 class="text-white h5">E-Commerce Concept</h4>
+                        <p class="text-gray small">Gestion de panier et paiement sécurisé en PHP/MySQL.</p>
+                        <div class="mb-3">
+                          <span class="badge-tech">PHP</span>
+                                <span class="badge-tech">MySQL</span>
+                                <span class="badge-tech">Bootstrap</span>
+                        
+                        </div>
+                        <a href="#" class="btn-projet-link" data-bs-toggle="modal" data-bs-target="#modalCyberChic">Voir le code →</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="card-projet">
+                  <img src="dashboard.JPG" class="img-fluid rounded-top" alt="Projet">
+                  <div class="p-4">
+                      <h4 class="text-white h5">Application de Gestion</h4>
+                      <p class="text-gray small">Système de gestion de stock avec interface d'administration.</p>
+                      <div class="mb-3">
+                        <span class="badge-tech">JavaScript</span>
+                              <span class="badge-tech">PHP</span>
+                              <span class="badge-tech">MySQL</span>
+                      
+                      </div>
+                      <a href="#" class="btn-projet-link" data-bs-toggle="modal" data-bs-target="#modalCyberChic">Voir le code →</a>
+                  </div>
+              </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card-projet">
+                <img src="meteo.JPG" class="img-fluid rounded-top" alt="Projet">
+                <div class="p-4">
+                    <h4 class="text-white h5">API Météo</h4>
+                    <p class="text-gray small">Récupération de données en temps réel via une API externe.</p>
+                    <div class="mb-3">
+                      <span class="badge-tech">JSON</span>
+                            <span class="badge-tech">PHP</span>
+                            <span class="badge-tech">CSS</span>
+                    
+                    </div>
+                    <a href="#" class="btn-projet-link" data-bs-toggle="modal" data-bs-target="#modalCyberChic">Voir le code →</a>
+                </div>
+            </div>
+        </div>
+         
+        </div>
+    </div>
+</section>
+<section class="projet">
+<div class="container">
+<div class="text-uppercase">
+
+</div>
+ <div class="row gy-4">
+
+
+
+
+
+ 
+ </div>
+
+
+</div>
+
+</section>
+
+
+
+
+<!-- Mes projet -->
+
+
+<!-- Mes compétences -->
+
+<section id="competence" class="py-5 bg-marine-dark">
+    <div class="container text-center">
+        <h2 class="text-white mb-5 fw-bold">Mes <span class="text-blue">Compétences</span></h2>
+        
+        <div class="row g-4 justify-content-center">
+            <div class="col-6 col-md-3 col-lg-2">
+                <div class="skill-card">
+                    <i class="fab fa-php skill-icon php-color"></i>
+                    <p class="mt-3 mb-0 fw-bold">PHP 8</p>
+                </div>
+            </div>
+            <div class="col-6 col-md-3 col-lg-2">
+                <div class="skill-card">
+                    <i class="fas fa-database skill-icon sql-color"></i>
+                    <p class="mt-3 mb-0 fw-bold">MySQL</p>
+                </div>
+            </div>
+            <div class="col-6 col-md-3 col-lg-2">
+                <div class="skill-card">
+                    <i class="fab fa-js skill-icon js-color"></i>
+                    <p class="mt-3 mb-0 fw-bold">JavaScript</p>
+                </div>
+            </div>
+            <div class="col-6 col-md-3 col-lg-2">
+                <div class="skill-card">
+                    <i class="fab fa-bootstrap skill-icon bs-color"></i>
+                    <p class="mt-3 mb-0 fw-bold">Bootstrap</p>
+                </div>
+            </div>
+            <div class="col-6 col-md-3 col-lg-2">
+                <div class="skill-card">
+                    <i class="fab fa-html5 skill-icon html-color"></i>
+                    <p class="mt-3 mb-0 fw-bold">HTML/CSS</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- Mes compétences -->
+
+
+
+
+<!-- Contact -->
+<section id="contact" class="py-5">
+    <div class="container">
+        <h2 class="text-center text-white mb-5 fw-bold">Me <span class="text-violet">Contacter</span></h2>
+        
+        <div class="row g-5">
+            <div class="col-lg-5">
+                <div class="contact-info-card p-4">
+                    <h4 class="text-white mb-4">Discutons de votre projet</h4>
+                    <p class="text-gray">Je suis disponible pour des missions en freelance ou des collaborations.</p>
+                    
+                    <div class="d-flex align-items-center mb-3">
+                        <div class="icon-box-contact"><i class="ri ri-mail-line"></i></div>
+                        <div class="ms-3">
+                            <p class="mb-0 text-gray small">Email</p>
+                            <p class="mb-0 text-white fw-bold">kimndrianasolo@gmail.com</p>
+                        </div>
+                    </div>
+                    
+                    <div class="d-flex align-items-center mb-3">
+                        <div class="icon-box-contact"><i class="ri ri-map-pin-2-fill"></i></div>
+                        <div class="ms-3">
+                            <p class="mb-0 text-gray small">Localisation</p>
+                            <p class="mb-0 text-white fw-bold">Antananarivo, Madagascar</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-7">
+                <form action="send_mail.php" method="POST" class="contact-form">
+                    <div class="row">
+                        <div class="col-md-6 mb-3">
+                            <input type="text" name="nom" class="form-control-custom" placeholder="Votre Nom" required>
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <input type="email" name="email" class="form-control-custom" placeholder="Votre Email" required>
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        <input type="text" name="sujet" class="form-control-custom" placeholder="Sujet" required>
+                    </div>
+                    <div class="mb-4">
+                        <textarea name="message" class="form-control-custom" rows="5" placeholder="Votre Message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn-main w-100">Envoyer le message</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- contact -->
+
+<div class="modal fade" id="modalCyberChic" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content bg-dark text-white border-info" style="border-radius: 20px;">
+      
+      <div class="modal-header border-secondary">
+        <h5 class="modal-title fw-bold">Détails Techniques : <span class="text-info">CyberChic</span></h5>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+
+      <div class="modal-body p-4">
+        <div class="row">
+          <div class="col-md-6">
+            <h6 class="text-info fw-bold">Architecture MVC</h6>
+            <p class="small text-muted">Le projet est structuré pour séparer la logique (Controller), les données (Model) et l'affichage (View), garantissant un code propre et évolutif.</p>
+            
+            <h6 class="text-info fw-bold mt-3">Fonctionnalités Backend</h6>
+            <ul class="small text-muted">
+              <li>Gestion de panier dynamique en PHP</li>
+              <li>Connexion sécurisée à une base de données MySQL</li>
+              <li>Système de routage personnalisé via <code>index.php</code></li>
+            </ul>
+          </div>
+          <div class="col-md-6 border-start border-secondary">
+            <h6 class="text-info fw-bold">Lien GitHub</h6>
+            <p class="small">Le code source complet est disponible ici :</p>
+            <a href="URL_DE_TON_GITHUB" target="_blank" class="btn btn-outline-info w-100 mb-3">
+               <i class="fab fa-github"></i> Explorer les fichiers
+            </a>
+            <div class="alert alert-secondary py-2 small" style="background: rgba(255,255,255,0.05);">
+              <i class="fas fa-info-circle"></i> Note : Un serveur local (XAMPP/WAMP) est requis pour exécuter le PHP.
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+</main>
+<!-- <script src="assets/js/bootstrap.bundle.min.js"></script> -->
+ <!-- Scroll Top -->
+ 
+<!-- Vendor JS Files -->
+<script src="all.min.js"></script>
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/jquery.js"></script>
+<script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="assets/vendor/php-email-form/validate.js"></script>
+<script src="assets/vendor/aos/aos.js"></script>
+<script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+<script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+<script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+<script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+<script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+<script src="assets/js/jquery.zoom.min.js"></script>
+<!-- jQuery -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- Isotope JS pour le filtrage dynamique -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/isotope/3.0.6/isotope.pkgd.min.js"></script>
+
+<!-- Main JS File -->
+<script src="assets/js/main.js"></script>
+<script src="assets/js/home.js"></script>
+
+
+    
+</body>
+</html>
+<?php
+
+include "../views/partials/home/footer.php";
+
+?>

@@ -1,0 +1,296 @@
+body{
+    background-color: #0B0E14;
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    letter-spacing: 0.1px;
+    line-height: 1.8;
+   
+    overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+    color:#e0e0e0;
+    font-weight: 700;
+   
+}
+
+
+.navbar{
+    background-color: rgba(11, 14, 20, 0.85); /* Fond marine transparent */
+    backdrop-filter: blur(12px); /* Effet flou "Glassmorphism" */
+    border-bottom: 1px solid rgba(139, 92, 246, 0.1);
+    padding: 15px 0;
+    width: 100%;
+    position: fixed;
+
+}
+.navbar-brand{
+    background: linear-gradient(to right, #8B5CF6, #3B82F6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 1.5rem; 
+
+}
+header .nav-link {
+    font-family: 'Montserrat', sans-serif;
+    color: #A0AEC0 !important;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    margin: 0 10px;
+    
+  
+}
+
+header .nav-link:hover {
+  
+    color: #8B5CF6 !important; /* Devient Violet */
+    transform: translateY(-2px); /* Petit saut dynamique */;
+    
+  
+}
+
+#navbarNavAltMarkup{
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+   
+   margin-inline-end: 20px;
+ 
+   
+}
+
+/*--------------------------------------------------------------
+# Hero Section
+--------------------------------------------------------------*/
+/* Style de la section Hero */
+.hero {
+    width: 100%;
+    min-height: 80vh;
+    /* Remplace 'ton-image-4k.jpg' par le nom du fichier que tu as téléchargé */
+    background: linear-gradient(rgba(10, 10, 15, 0.7), rgba(10, 10, 15, 0.7)), 
+                url('gamer.jfif') center center no-repeat;
+    background-size: cover;
+ 
+    padding: 120px 0 60px 0;
+}
+
+/* Titre principal */
+.hero h1 {
+    font-size: 4rem;
+    font-weight: 800;
+    color: #fff;
+    line-height: 1;
+    margin-bottom: 20px;
+}
+
+.hero h1 span {
+    color: #0d6efd; /* Le bleu de ton logo */
+    text-shadow: 0 0 20px rgba(13, 110, 253, 0.5);
+}
+
+/* Sous-titre et Nom */
+.hero-subtitle p {
+    font-size: 1.2rem;
+    color: #cbd5e1;
+    margin-top: 5px;
+}
+
+.name-tag {
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 0.9rem;
+    color: #0d6efd;
+    font-weight: bold;
+}
+
+/* Boutons personnalisés pour qu'ils ne soient pas juste "gris" */
+.btn-main {
+    border: 2px solid #0d6efd;
+   
+    padding: 12px 30px;
+    border-radius: 50px;
+    transition: 0.3s;
+    background: transparent;
+    background: linear-gradient(to right, #8B5CF6, #3B82F6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+ 
+    border-radius: 30px;
+    font-size: smaller;
+}
+
+.btn-main:hover {
+     background: linear-gradient(to right, #8B5CF6, #3B82F6); transform: scale(1.05); 
+     color: white;
+}
+
+.btn-outline-main {
+    border: 2px solid #0d6efd;
+   
+    padding: 12px 30px;
+    border-radius: 50px;
+    transition: 0.3s;
+    background: transparent;
+    background: linear-gradient(to right, #8B5CF6, #3B82F6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+   
+  
+}
+
+.btn-outline-main:hover {
+    background: linear-gradient(to right, #8B5CF6, #3B82F6); transform: scale(1.05); 
+    color: white;;
+  
+}
+
+
+
+
+
+
+
+
+
+  /* COMP2TENCE */
+  .skill-card {
+    background: rgba(30, 41, 59, 0.5);
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    padding: 30px 20px;
+    border-radius: 20px;
+    transition: all 0.4s ease;
+    cursor: default;
+}
+
+.skill-card:hover {
+    background: rgba(139, 92, 246, 0.1);
+    border-color: #8B5CF6;
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(139, 92, 246, 0.2);
+}
+
+.skill-icon {
+    font-size: 3rem;
+    transition: 0.3s;
+}
+
+/* Couleurs spécifiques au survol */
+.php-color { color: #777BB3; }
+.sql-color { color: #3B82F6; }
+.js-color  { color: #F7DF1E; }
+.bs-color  { color: #7952B3; }
+.html-color { color: #E34F26; }
+
+.skill-card p {
+    color: #A0AEC0;
+    font-size: 0.9rem;
+}
+
+.skill-card:hover p {
+    color: #ffffff;
+}
+
+
+   /* COMP2TENCE */
+
+
+
+   /* projet */
+   .card-projet {
+    background: #161B22; /* Bleu marine un peu plus clair que le fond */
+    border: 1px solid rgba(139, 92, 246, 0.2);
+    border-radius: 15px;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+
+.card-projet:hover {
+    transform: translateY(-10px);
+    border-color: #8B5CF6;
+    box-shadow: 0 10px 30px rgba(139, 92, 246, 0.1);
+}
+
+.badge-tech {
+    background: rgba(59, 130, 246, 0.1);
+    color: #3B82F6;
+    font-size: 0.75rem;
+    padding: 4px 10px;
+    border-radius: 50px;
+    margin-right: 5px;
+    border: 1px solid rgba(59, 130, 246, 0.3);
+}
+
+.btn-projet-link {
+    color: #8B5CF6;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 0.9rem;
+    transition: 0.3s;
+}
+
+.btn-projet-link:hover {
+    color: #ffffff;
+    padding-left: 5px;
+}
+
+
+   /* projet */
+
+
+
+   /* contact
+   */
+
+   .contact-info-card {
+    background: rgba(30, 41, 59, 0.3);
+    border-radius: 20px;
+    border: 1px solid rgba(139, 92, 246, 0.1);
+}
+
+.icon-box-contact {
+    width: 50px;
+    height: 50px;
+    background: rgba(139, 92, 246, 0.1);
+    color: #8B5CF6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+    font-size: 1.2rem;
+}
+
+.form-control-custom {
+    background: #161B22;
+    border: 1px solid #30363D;
+    border-radius: 10px;
+    padding: 12px 15px;
+    color: white;
+    width: 100%;
+    outline: none;
+    transition: 0.3s;
+}
+
+.form-control-custom:focus {
+    border-color: #8B5CF6;
+    box-shadow: 0 0 10px rgba(139, 92, 246, 0.2);
+}
+
+.form-control-custom::placeholder {
+    color: #6E7681;
+}
+
+
+
+
+   /* contact */
+   .modal-content {
+    background: #0b0b0f !important; /* Couleur sombre comme ton fond */
+    box-shadow: 0 0 30px rgba(0, 212, 255, 0.2); /* Rappel du glow bleu */
+}
+
+.modal-header .btn-close {
+    filter: invert(1); /* Rend la croix blanche */
+}
